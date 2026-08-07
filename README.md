@@ -54,8 +54,7 @@ The major objectives of this task were:
 ---
 
 # 📊 Dashboard Preview
-
-![Sales Performance & Customer Segmentation Dashboard](Screenshots/Screenshot 2026-08-07 150329.png)
+![Sales Performance & Customer Segmentation Dashboard](Screenshots/Screenshot%202026-08-07%20150329.png)
 
 ### Dashboard Title
 
