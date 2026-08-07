@@ -42,11 +42,11 @@ The major objectives of this task were to:
 
 [**Click Here to View Interactive Dashboard**](https://app.powerbi.com/)
 
-> **Note:** Replace the link above with your actual published Power BI dashboard URL before submitting the repository.
 
 ---
 
 # 📊 Dashboard Preview
+![Sales Performance & Customer Segmentation Dashboard](Screenshots/Screenshot%202026-08-07%20150329.png)
 
 ### Dashboard Title
 
