@@ -1,193 +1,105 @@
 # 📊 Task 3 – Deep-Dive Analysis & Interactive Dashboarding
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
-![Power BI](https://img.shields.io/badge/Power%20BI-Interactive%20Dashboard-F2C811?logo=powerbi)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
-![SQL](https://img.shields.io/badge/SQL-Database-orange)
+![Data Analytics](https://img.shields.io/badge/Domain-Data%20Analytics-blue)
+![Power BI](https://img.shields.io/badge/Power%20BI-Interactive%20Dashboard-yellow)
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Manipulation-150458)
+![Internship](https://img.shields.io/badge/ApexPlanet-Internship-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
-This repository contains my submission for **Task 3 – Deep-Dive Analysis & Interactive Dashboarding** as part of the **ApexPlanet Data Analytics Internship Program**.
+This repository contains my submission for **Task 3 – Deep-Dive Analysis & Interactive Dashboarding**, completed as part of the **ApexPlanet Data Analytics Internship Program**.
 
-The primary objective of this task was to solve a complex business problem through detailed data analysis, define meaningful Key Performance Indicators (KPIs), and build an interactive Business Intelligence dashboard for data-driven decision making.
+The primary objective of this task was to perform a detailed analysis of sales and customer data, identify important business performance indicators, analyze customer segments and product performance, and develop an interactive **Power BI Business Intelligence dashboard**.
 
----
+The project focuses on transforming raw sales data into meaningful business insights through:
 
-# 🎯 Objectives
-
-- Perform deep-dive business analysis
-- Define business KPIs
-- Build an interactive dashboard
-- Enable dynamic data exploration
-- Generate actionable business insights
-- Support strategic decision-making
-
----
-
-# 🛠️ Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- SQL
-- Power BI
-- Jupyter Notebook
-- Excel
+- 📊 KPI development
+- 👥 Customer segmentation
+- 📈 Sales trend analysis
+- 🌍 Geographic analysis
+- 🛍️ Product and category analysis
+- 📅 Time-based analysis
+- 🎛️ Interactive filtering
+- 💡 Business recommendations
 
 ---
 
-# 📂 Repository Structure
+# 🎯 Project Objectives
 
-```
-Task-3-Deep-Dive-Analysis/
-│
-├── Dashboard/
-│   ├── Interactive_Dashboard.pbix
-│   └── Dashboard_Screenshots/
-│
-├── Dataset/
-│   └── Cleaned_Data.csv
-│
-├── Report/
-│   └── Deep_Dive_Report.pdf
-│
-├── README.md
+The major objectives of this task were:
 
-```
+- Define meaningful **Key Performance Indicators (KPIs)**.
+- Analyze overall sales and order performance.
+- Perform customer segmentation based on demographic and purchasing characteristics.
+- Identify high-performing product categories.
+- Analyze product-level revenue contribution.
+- Compare revenue performance across cities.
+- Analyze customer distribution by age group.
+- Identify sales trends over time.
+- Develop an interactive Power BI dashboard.
+- Generate actionable business insights from the analysis.
 
 ---
 
-# 📈 Project Workflow
+# 🔗 Live Interactive Dashboard
 
-### 1️⃣ Data Preparation
+🌐 **View Live Power BI Dashboard:**
 
-- Imported cleaned dataset
-- Verified data quality
-- Created calculated fields
-- Prepared data model
+[**Click Here to View Interactive Dashboard**](https://app.powerbi.com/)
 
 ---
 
-### 2️⃣ KPI Definition
+# 📊 Dashboard Preview
 
-Key Performance Indicators include:
+![Sales Performance & Customer Segmentation Dashboard](screenshots/Screenshot%202026-07-26%20172348.png)
 
-- Total Revenue
-- Total Sales
-- Average Order Value
-- Customer Growth
-- Monthly Sales Trend
-- Profit Margin
-- Customer Retention Rate
+### Dashboard Title
+
+**Sales Performance & Customer Segmentation Dashboard**
+
+The dashboard provides a consolidated view of sales performance, customer behavior, product performance, category revenue, geographic distribution, and customer demographics.
 
 ---
 
-### 3️⃣ Deep-Dive Analysis
+# 📐 Key Performance Indicators (KPIs)
 
-Performed detailed business analysis to identify:
+The dashboard tracks five major business KPIs.
 
-- Sales trends
-- Customer behavior
-- Product performance
-- Regional performance
-- Revenue contribution
-- Business growth opportunities
+## 💰 1. Total Revenue
 
----
+### **139.40M**
 
-### 4️⃣ Interactive Dashboard
+Represents the total revenue generated from all recorded sales transactions.
 
-Developed an interactive Power BI dashboard featuring:
+**Business Purpose:**
 
-- KPI Cards
-- Sales Trend Analysis
-- Category Performance
-- Customer Segmentation
-- Regional Analysis
-- Dynamic Filters
-- Slicers
-- Drill-down Reports
+Helps evaluate the overall financial performance of the business and provides a high-level view of total sales generated.
 
 ---
 
-# 📊 Dashboard Features
+## 🛒 2. Total Orders
 
-- Interactive Filters
-- Dynamic Charts
-- KPI Cards
-- Drill-through Pages
-- Responsive Visualizations
-- Business Performance Tracking
+### **992**
 
----
+Represents the total number of orders recorded in the dataset.
 
-# 📈 Key Insights
+**Business Purpose:**
 
-- Identified top-performing products
-- Analyzed customer purchasing behavior
-- Compared regional performance
-- Evaluated monthly revenue growth
-- Highlighted business improvement opportunities
+Helps measure sales activity and understand overall customer transaction volume.
 
 ---
 
-# 📁 Deliverables
+## 📊 3. Average Order Value (AOV)
 
-- ✅ Deep-Dive Analysis Report
-- ✅ Interactive Power BI Dashboard
-- ✅ KPI Documentation
-- ✅ Dashboard Screenshots
-- ✅ Business Recommendations
+### **140.52K**
 
----
+Average revenue generated per order.
 
-# 🚀 Learning Outcomes
+**Formula:**
 
-During this task, I gained practical experience in:
-
-- Business Intelligence
-- KPI Development
-- Interactive Dashboard Design
-- Power BI
-- Data Visualization
-- Business Analysis
-- Decision Support Analytics
-
----
-
-# 📸 Dashboard Preview
-
-The dashboard includes:
-
-- Executive KPI Overview
-- Sales Performance Dashboard
-- Customer Analytics
-- Product Performance
-- Regional Insights
-- Interactive Filters
-
----
-
-# 📚 Internship Program
-
-**ApexPlanet Software Pvt. Ltd.**
-
-**Task 3**
-**Deep-Dive Analysis & Interactive Dashboarding**
-
----
-
-# 👨‍💻 Author
-
-**Parth Varute**
-
-GitHub: https://github.com/parthvarute09
-
-LinkedIn: https://www.linkedin.com/in/parth-varute-49516a332
-
----
-
-⭐ If you found this project helpful, don't forget to give it a **Star**!
+```text
+AOV = Total Revenue / Total Orders
