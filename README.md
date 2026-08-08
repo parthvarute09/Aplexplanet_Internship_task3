@@ -34,14 +34,6 @@ The major objectives of this task were to:
 * Develop an interactive Power BI dashboard.
 * Generate actionable business insights from the analysis.
 
----
-
-# 🔗 Live Interactive Dashboard
-
-🌐 **View Live Power BI Dashboard:**
-
-[**Click Here to View Interactive Dashboard**](https://app.powerbi.com/)
-
 
 ---
 
